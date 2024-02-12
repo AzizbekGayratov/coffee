@@ -1,0 +1,71 @@
+.hero {
+    &__block {
+        text-align: center;
+        padding-top: 111px;
+        padding-right: 24px;
+        padding-bottom: 87px;
+        padding-left: 24px;
+        background-repeat: no-repeat;
+        background-image: url('/img/about_hero_b.jpeg');
+        background-size: cover;
+        border-radius: 10px;
+    }
+}
+
+.hero {
+    &__title {
+        color: $light-cream;
+        font-family: Fraunces;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 28px;
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        @include text (#CECECB);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .hero {
+        &__block {
+            background-image: url('/img/about_hero-tab_bg.jpeg');
+            text-align: left;
+            padding-top: 118px;
+            padding-bottom: 118px;
+            padding-left: 58px;
+        }
+
+        &__content {
+            max-width: 398px;
+        }
+
+        &__title {
+            font-size: 32px;
+            line-height: 40px;
+        }
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .hero {
+        &__block {
+            background-image: url('/img/about_hero-pc_bg.jpeg');
+            padding-top: 137px;
+            padding-bottom: 137px;
+            padding-left: 85px;
+        }
+
+        &__title {
+            font-size: 40px;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+}
