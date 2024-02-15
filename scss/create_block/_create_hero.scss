@@ -1,0 +1,77 @@
+.hero {
+    &__block {
+        text-align: center;
+        padding-top: 101px;
+        padding-right: 24px;
+        padding-bottom: 136px;
+        padding-left: 24px;
+        background-repeat: no-repeat;
+        background-image: url('/img/create_hero-mobile_bg.jpeg');
+        background-size: cover;
+        border-radius: 10px;
+    }
+}
+
+.hero {
+    &__title {
+        color: $light-cream;
+        font-family: Fraunces;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 28px;
+        margin-bottom: 22px;
+    }
+
+    &__text {
+        @include text (#CECECB);
+    }
+}
+
+@media screen and (min-width:650px) {
+    .hero {
+        &__block {
+            background-image: url('/img/create_hero-tab_bg.jpeg');
+            text-align: left;
+            padding-top: 127px;
+            padding-bottom: 126px;
+            padding-left: 58px;
+        }
+
+        &__content {
+            max-width: 398px;
+        }
+
+        &__title {
+            font-size: 48px;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .hero {
+        &__block {
+            background-image: url('/img/create_hero-pc_bg.jpeg');
+            padding-top: 134px;
+            padding-bottom: 134px;
+            padding-left: 85px;
+        }
+
+        &__title {
+            font-size: 72px;
+            line-height: 72px;
+            margin-bottom: 32px;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 26px;
+        }
+        
+        &__content{
+            max-width: 486px;
+        }
+    }
+}
