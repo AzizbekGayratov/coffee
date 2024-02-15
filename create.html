@@ -53,26 +53,278 @@
         <section class="choose">
             <div class="container">
                 <div class="choose__block">
-                    <div class="choose__line_block">
-                        <span class="choose__circle"></span>
-                        <span class="choose__circle"></span>
-                        <span class="choose__circle"></span>
+                    <div class="choose__content">
+                        <div class="choose__line_block">
+                            <span class="choose__circle"></span>
+                            <span class="choose__circle"></span>
+                            <span class="choose__circle"></span>
+                        </div>
+                        <ul class="choose__list">
+                            <li class="choose__item">
+                                <h3 class="choose__sub_title">Pick your coffee</h3>
+                                <p class="choose__inenr_text">Select from our evolving range of artisan coffees. Our
+                                    beans
+                                    are ethically sourced and we pay fair prices for them. There are new coffees in all
+                                    profiles every month for you to try out.</p>
+                            </li>
+                            <li class="choose__item">
+                                <h3 class="choose__sub_title" id="title2">Choose the frequency</h3>
+                                <p class="choose__inenr_text">Customize your order frequency, quantity, even your roast
+                                    style and grind type. Pause, skip or cancel your subscription with no commitment
+                                    through
+                                    our online portal.</p>
+                            </li>
+                            <li class="choose__item">
+                                <h3 class="choose__sub_title" id="title3">Receive and enjoy!</h3>
+                                <p class="choose__inenr_text">We ship your package within 48 hours, freshly roasted. Sit
+                                    back and enjoy award-winning
+                                    world-class coffees curated to provide a distinct tasting experience.</p>
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="choose__list">
-                        <li class="choose__item">
-                            <h3 class="choose__sub_title">Pick your coffee</h3>
-                            <p class="choose__inenr_text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                </div>
+            </div>
+        </section>
+        <section class="order">
+            <div class="container">
+                <div class="order__block">
+                    <ul class="order__list">
+                        <li class="order__item">
+                            <span class="order__item_num">01</span>
+                            <p class="order__des">Preferences</p>
                         </li>
-                        <li class="choose__item">
-                            <h3 class="choose__sub_title">Choose the frequency</h3>
-                            <p class="choose__inenr_text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                        <li class="order__item">
+                            <span class="order__item_num">02</span>
+                            <p class="order__des">Bean Type</p>
                         </li>
-                        <li class="choose__item">
-                            <h3 class="choose__sub_title">Receive and enjoy!</h3>
-                            <p class="choose__inenr_text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning 
-                                world-class coffees curated to provide a distinct tasting experience.</p>
+                        <li class="order__item">
+                            <span class="order__item_num">03</span>
+                            <p class="order__des">Quantity</p>
+                        </li>
+                        <li class="order__item">
+                            <span class="order__item_num">04</span>
+                            <p class="order__des">Grind Option</p>
+                        </li>
+                        <li class="order__item">
+                            <span class="order__item_num">05</span>
+                            <p class="order__des">Deliveries</p>
                         </li>
                     </ul>
+                    <div class="order__box">
+                        <ul class="order__form_list">
+                            <li class="order__form_item">
+                                <h3 class="order__title">How do you drink your coffee?</h3>
+                                <form class="order__form_block">
+                                    <ul class="order__radio_list">
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio21" class="order__radio_input"
+                                                    name="radiobox1">
+                                                <label for="radio21" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Capsule</h4>
+                                                    <p class="order__radio_inner_text">Compatible with Nespresso systems and
+                                                        similar brewers</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio22" class="order__radio_input"
+                                                    name="radiobox1">
+                                                <label for="radio22" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Filter</h4>
+                                                    <p class="order__radio_inner_text">For pour over or drip methods like
+                                                        Aeropress, Chemex, and V60</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio23" class="order__radio_input"
+                                                    name="radiobox1">
+                                                <label for="radio23" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Espresso</h4>
+                                                    <p class="order__radio_inner_text">Dense and finely ground beans for an
+                                                        intense, flavorful experience</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </li>
+                            <li class="order__form_item">
+                                <h3 class="order__title">What type of coffee?</h3>
+                                <form class="order__form_block">
+                                    <ul class="order__radio_list">
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio11" class="order__radio_input"
+                                                    name="radiobox2">
+                                                <label for="radio11" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Single Origin</h4>
+                                                    <p class="order__radio_inner_text">Distinct, high quality coffee from a
+                                                        specific family-owned farm</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio12" class="order__radio_input"
+                                                    name="radiobox2">
+                                                <label for="radio12" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Decaf</h4>
+                                                    <p class="order__radio_inner_text">Just like regular coffee, except the
+                                                        caffeine has been removed</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio13" class="order__radio_input"
+                                                    name="radiobox2">
+                                                <label for="radio13" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Blended</h4>
+                                                    <p class="order__radio_inner_text">Combination of two or three dark
+                                                        roasted beans of organic coffees</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </li>
+                            <li class="order__form_item">
+                                <h3 class="order__title">How much would you like?</h3>
+                                <form class="order__form_block">
+                                    <ul class="order__radio_list">
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio31" class="order__radio_input"
+                                                    name="radiobox3">
+                                                <label for="radio31" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">250g</h4>
+                                                    <p class="order__radio_inner_text">Perfect for the solo drinker. Yields
+                                                        about 12 delicious cups.</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio32" class="order__radio_input"
+                                                    name="radiobox3">
+                                                <label for="radio32" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">500g</h4>
+                                                    <p class="order__radio_inner_text">Perfect option for a couple. Yields
+                                                        about 40 delectable cups.</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio33" class="order__radio_input"
+                                                    name="radiobox3">
+                                                <label for="radio33" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">1000g</h4>
+                                                    <p class="order__radio_inner_text">Perfect for offices and events.
+                                                        Yields about 90 delightful cups.</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </li>
+                            <li class="order__form_item">
+                                <h3 class="order__title">Want us to grind them?</h3>
+                                <form class="order__form_block">
+                                    <ul class="order__radio_list">
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio41" class="order__radio_input"
+                                                    name="radiobox4">
+                                                <label for="radio41" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Wholebean</h4>
+                                                    <p class="order__radio_inner_text">Best choice if you cherish the full
+                                                        sensory experience</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio42" class="order__radio_input"
+                                                    name="radiobox4">
+                                                <label for="radio42" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Filter</h4>
+                                                    <p class="order__radio_inner_text">For drip or pour-over coffee methods
+                                                        such as V60 or Aeropress</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio43" class="order__radio_input"
+                                                    name="radiobox4">
+                                                <label for="radio43" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Cafetiére</h4>
+                                                    <p class="order__radio_inner_text"> Course ground beans specially suited
+                                                        for french press coffee</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </li>
+                            <li class="order__form_item">
+                                <h3 class="order__title">How often should we deliver?</h3>
+                                <form class="order__form_block">
+                                    <ul class="order__radio_list">
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio51" class="order__radio_input"
+                                                    name="radi=obox5">
+                                                <label for="radio51" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Every week</h4>
+                                                    <p class="order__radio_inner_text">$7.20 per shipment. Includes free
+                                                        first-class shipping.</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio52" class="order__radio_input"
+                                                    name="radi=obox5">
+                                                <label for="radio52" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Every 2 weeks</h4>
+                                                    <p class="order__radio_inner_text">$9.60 per shipment. Includes free
+                                                        priority shipping.</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li class="order__radio_item">
+                                            <div class="order__radio_block">
+                                                <input type="radio" value="radio" id="radio53" class="order__radio_input"
+                                                    name="radi=obox5">
+                                                <label for="radio53" class="order__radio_card">
+                                                    <h4 class="order__radio_sub_title">Every month</h4>
+                                                    <p class="order__radio_inner_text">$12.00 per shipment. Includes free
+                                                        priority shipping.</p>
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </li>
+                        </ul>
+                        <div class="order__content_block">
+                            <div class="order__content">
+                                <span class="order__cap">Order Summary</span>
+                                <p class="order__content_text">
+                                    “I drink my coffee as <a href="#">Filter</a>, with a <a href="#">Decaf</a> type of bean. <a href="#">250g</a> ground ala <a href="#">Cafetiére</a>, sent to me <a href="#">Every Week</a>.”
+                                </p>
+                            </div>
+                            <div class="order__btn_block">                            
+                                <a href="#" class="order__btn">Create my plan!</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

@@ -1,0 +1,237 @@
+.order {
+    padding-bottom: 120px;
+}
+
+.order__list {
+    display: none;
+}
+
+.order__block {
+    text-align: left;
+}
+
+.order__title {
+    color: $grey;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    max-width: 240px;
+    margin-bottom: 32px;
+}
+
+.order__radio_sub_title {
+    color: $dark-grey-blue;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.order__radio_inner_text {
+    color: $dark-grey-blue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.order__radio_input[type="radio"] {
+    display: none;
+}
+
+.order__radio_card {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #f4f1eb;
+    padding: 24px 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: 100%;
+}
+
+.order__radio_input[type="radio"]:checked+label {
+    background-color: $dark-cyan;
+
+    p,
+    h4 {
+        color: #fff;
+    }
+}
+
+.order__radio_list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.order__form_list {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+.order__content {
+    text-align: left;
+    border-radius: 10px;
+    background-color: #2c343e;
+    padding: 32px 24px;
+}
+
+.order__content_block {
+    margin-top: 120px;
+}
+
+.order__cap {
+    display: inline-block;
+    color: #919191;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.order__content_text {
+    color: $light-cream;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+
+    a {
+        color: $dark-cyan;
+    }
+}
+
+.order__btn_block {
+    text-align: center;
+    margin-top: 56px;
+}
+
+.order__btn {
+    @include btn;
+}
+
+@media screen and (min-width:768px) {
+    .order {
+        padding-bottom: 140px;
+    }
+
+    .order__form_list {
+        gap: 100px;
+        max-width: 730px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .order__radio_list {
+        flex-direction: row;
+    }
+
+    .order__title {
+        font-size: 32px;
+        line-height: 48px;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .order__radio_card {
+        padding: 32px 26px 84px 25px;
+    }
+
+    .order__radio_sub_title {
+        margin-bottom: 24px;
+    }
+
+    .order__content {
+        padding: 27px 43px 27px 44px;
+        max-width: 690px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .order__btn_block {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .order__block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .order__list {
+        display: inline-block;
+        text-align: left;
+        max-width: 255px;
+        width: 100%;
+    }
+
+    .order__item_num {
+        display: inline-block;
+        color: $grey;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    .order__des {
+        color: #919191;
+        font-family: Fraunces;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    .order__item {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #919191;
+        cursor: pointer;
+
+        &:first-child {
+            padding-top: 0;
+        }
+    }
+
+    .order__item {
+        display: flex;
+        gap: 25px;
+    }
+
+    .order__form_list {
+        margin-right: 0;
+    }
+
+    .order__content {
+        margin-right: 0;
+    }
+
+    .order__btn_block {
+        text-align: right;
+    }
+
+    .order__title {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 56px;
+    }
+    .order__radio_card{
+        padding: 32px 28px 84px 28px;
+    }
+    .order__form_list{
+        max-width: 745px;
+        gap: 88px;
+    }
+    .order__content{
+        max-width: 730px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+    .order__content_block{
+        margin-top: 84px;
+    }
+}
